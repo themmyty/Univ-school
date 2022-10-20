@@ -172,12 +172,56 @@ nav .navbar .links li .globe-sub-menu{
   font-weight: 500;
 }
 
+/* TEXTS ON VIDEO */
+.text-on-video {
+  position: absolute;
+  bottom:120px;
+}
+.text-on-video >h1 {
+  font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.22;
+    padding: 0 809px 0 44px;
+    font-weight: 800;
+    color: white;
+}
+.text-on-video >p {
+    margin-bottom: 2.5rem;
+    line-height: 1.22;
+    padding: 0 900px 0 44px;
+    color: white;
+}
+.text-on-video >button {
+  width: fit-content;
+  background: linear-gradient(to right, rgb(237, 75, 83), rgb(255, 118, 76));
+  color: rgb(255, 255, 255);
+  transition: all 0.2s ease 0s;
+  padding: 0px 20px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.4s;
+  transition-timing-function: ease-in;
+  cursor: pointer;
+  margin-left: 60px;
+  /* transition-duration: 0.4s; */
+}
+.text-on-video >button:hover {
+  background: linear-gradient(to right, rgb(136, 23, 28), rgb(136, 23, 28));
+}
+
 /* background video */
 .background-video{
     display: block;
     position: relative;
     min-width: 100%; 
-    min-height: 100%; 
+    min-height: 130%; 
 }
 #myVideo {
     position: absolute;
@@ -817,7 +861,7 @@ nav .navbar .links li .sub-menu li{
       margin: 40px auto;
     }
     .left-section-group >p{
-      width: 382px;
+      width: 332px;
       padding: 0;
     }
     .our-success-section {
@@ -826,6 +870,20 @@ nav .navbar .links li .sub-menu li{
     .right-section-group img {
       width: 100%;
     }
+    .text-on-video {
+      bottom: 100px;
+    }
+    .text-on-video>h1 {
+      padding: 10px;
+      margin-bottom: 0.5rem;
+      font-size: 2.1rem;
+     }
+     .text-on-video >p {
+      padding:10px;
+     }
+     .background-video {
+      min-height: 90%;
+     }
 }
 
 @media (max-width:370px){
@@ -874,7 +932,7 @@ nav .navbar .links li .sub-menu li{
       margin: 40px auto;
     }
     .left-section-group >p{
-      width: 382px;
+      width: 332px;
       padding: 0;
     }
     .our-success-section {
@@ -891,4 +949,17 @@ nav .navbar .links li .sub-menu li{
       flex-direction: column;
       padding: 0 41px;
     }
+    .text-on-video>h1 {
+      padding: 10px;
+      margin-bottom: 0.5rem;
+      font-size: 2.1rem;
+     }
+   .text-on-video >p {
+    padding:10px;
+   }.text-on-video {
+    bottom: 100px;
+  }
+  .background-video {
+    min-height: 92%;
+   }
 }
