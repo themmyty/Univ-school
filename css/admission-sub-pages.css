@@ -213,3 +213,114 @@ position: relative;
         background: lightgray;
       }
 
+@media screen and (max-width:800px){
+    .teachers-rec-section {
+        padding: 0 1rem;
+    }
+    .teachers-rec-img-and-cap {
+        flex-wrap: wrap;
+    }
+    .teachers-rec-header>p{
+        padding: 10px 2px;
+    }
+    .teachers-rec-img-and-cap img {
+        width: 100%;
+    }
+    .why-college-au-pier-section{
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+    .overlay-info-content{
+        width: 125px;
+        height: 166px;
+    }
+    .overlay-img-and-caps {
+        display: flex;
+        flex-direction: column;
+    }
+    .top-footer-b-image-btn {
+        margin-top: 0;
+    }
+    .text-and-button-cont >h2 {
+        font-size: 18px;
+        padding: 0 3px;
+        line-height: 1;
+        margin-top: -11px;
+    }
+    .text-and-button-cont{
+        top:15px
+    }
+    .overlay-info {
+        display: none;
+    }
+    .why-college-left-section img {
+        width: 100%;
+    }
+    .why-college-right-section >p {
+        padding: 10px 15px;
+    }
+    .recommendation-section {
+        padding: 0;
+        margin-top: 0;
+        height: 445px;
+    }
+    .reconmmendatin-section-content{
+        padding: 1rem;
+    }
+}
+
+@media (max-width:370px){
+    .teachers-rec-section {
+        padding: 0 1rem;
+    }
+    .teachers-rec-header>p{
+        padding: 10px 2px;
+    }
+    .teachers-rec-img-and-cap {
+        flex-wrap: wrap;
+    }
+    .teachers-rec-img-and-cap img {
+        width: 100%;
+    }
+    .why-college-au-pier-section{
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+    .overlay-info-content{
+        width: 125px;
+        height: 166px;
+    }
+    .overlay-img-and-caps {
+        display: flex;
+        flex-direction: column;
+    }
+    .text-and-button-cont >h2 {
+        font-size: 18px;
+        padding: 0 3px;
+        line-height: 1;
+        margin-top: -11px;
+    }
+    .top-footer-b-image-btn {
+        margin-top: 0;
+    }
+    .text-and-button-cont{
+        top:15px
+    }
+    .overlay-info {
+        display: none;
+    }
+    .why-college-left-section img {
+        width: 100%;
+    }
+    .why-college-right-section >p {
+        padding: 10px 15px;
+    }
+    .recommendation-section {
+        padding: 0;
+        margin-top: 0;
+        height: 445px;
+    }
+    .reconmmendatin-section-content{
+        padding: 1rem;
+    }
+}
