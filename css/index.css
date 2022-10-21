@@ -34,8 +34,9 @@ nav .navbar{
   padding: 0 40px;
 }
 .logo img{
-    width: 115px;
-    height: 100px;
+  width: 112px;
+  height: 61px;
+  margin-top: 10px;
 }
 .navbar .logo a{
   font-size: 30px;
