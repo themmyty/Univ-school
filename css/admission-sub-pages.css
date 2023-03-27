@@ -197,7 +197,150 @@
     text-align: center;
     margin: 2rem auto 0px; 
 }
+/* online tutoring */
 
+.online-tutoring-centered-text{
+    /* font-size: 1.6rem; */
+    line-height: 20px;
+    margin: 0px auto 1rem;
+    text-align: center;
+}
+.online-t-header{
+    margin:20px auto;
+    text-align: center;
+}
+.online-t-sub-header h1{
+    font-size: 28px;
+    color: rgb(51, 52, 86);
+    margin-bottom: 20px;
+}
+.online-t-sub-header p{
+    font-size: 17px;
+    color:rgb(115, 116, 125);
+    max-width: 61rem;
+}
+
+/* webinar and workshop*/
+.web-worshop-img img{
+    width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+.web-workshop-texts{
+    position: absolute;
+    top: 98px;
+    left: 240px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    width: 841px;
+}
+.upcoming-event-webinar{
+    font-weight: 800;
+    color: rgb(51, 52, 86);
+    margin: 2.5rem auto 2.3rem;
+    text-align: center;
+    max-width: 84rem;
+    font-size: larger;
+}
+.webinar-crew {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(231, 241, 241);
+   
+}
+.webinar-crew h1{
+    line-height: 1.5;
+    margin: 0px auto 0.6rem;
+    max-width: 84rem;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(51, 52, 86);
+   padding-top: 35px;
+}
+.webinar-crew p {
+    font-size: 1.1rem;
+    margin: 0px auto;
+    max-width: 56rem;
+    text-align: center;
+    line-height: 1.57;
+    color: rgb(115, 116, 125);
+}
+
+/*Us boarding page*/
+.usboarding-btn-advisor{
+    margin: 20px 76px;
+
+}
+.us-boarding-support-work{
+    width: 100%;
+    height: 160vh;
+    background-color: rgb(231,241,241);
+
+}
+.us-boarding-support-work h1{
+    line-height: 1.5;
+    margin: 0px auto 0.6rem;
+    max-width: 84rem;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(51, 52, 86);
+   padding-top: 35px;
+   font-size: 30px;
+}
+.us-boarding-support-work p {
+    font-size: 1.1rem;
+    margin: 0px auto;
+    max-width: 56rem;
+    text-align: center;
+    line-height: 1.57;
+    color: rgb(115, 116, 125);
+}
+.usbs-new-size >img{
+    width: 50px;
+    height: auto;
+    margin: 0px 155px;
+}
+.us-boarding-support-work h6{
+    line-height: 1.2;
+    margin: 0px auto 0.6rem;
+    max-width: 84rem;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(51, 52, 86);
+   font-size: 20px;
+}
+.align-none{
+    align-items: baseline;
+}
+.meet-student-sec{
+    position: relative;
+}
+.meet-student-sec img{
+ width: 100%;
+ height: 70vh;
+ position: relative;
+}
+.meet-student-contents{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0 40px;
+  position: absolute;
+  top: 30px;
+}
+.meet-student-contents h1{
+    margin-bottom: 20px;
+}
+.meet-student-contents h1,p{
+    color: white;
+    line-height: 20px;
+}
+.meet-student-contents img{
+    width: 400px;
+    height: auto;
+}
 
 
 /* top footer */
@@ -297,6 +440,16 @@ position: relative;
     .reconmmendatin-section-content{
         padding: 1rem;
     }
+    /*webinar and workshop*/
+    .web-workshop-texts {
+        position: absolute;
+        top: 98px;
+        left: 4px;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        width: 354px;
+    }
 }
 
 @media (max-width:370px){
@@ -352,5 +505,11 @@ position: relative;
     }
     .reconmmendatin-section-content{
         padding: 1rem;
+    }
+
+    /*webinar and workshop*/
+    .web-workshop-texts {
+        left: 8px;
+        width: 0px;
     }
 }
