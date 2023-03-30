@@ -319,7 +319,7 @@
 }
 .meet-student-sec img{
  width: 100%;
- height: 70vh;
+ height: 80vh;
  position: relative;
 }
 .meet-student-contents{
@@ -344,6 +344,37 @@
     width: 400px;
     height: auto;
 }
+.questionaires p{
+    width: 25rem;
+    line-height: 25px;
+}
+.download-now-btn >button{
+    color: rgb(255, 255, 255);
+    background: rgb(27, 30, 44);
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.2s ease 0s;
+    padding: 9px 20px;
+    border-radius: 20px;
+    transition: all 0.4s;
+    transition-timing-function: ease-in ;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 30px 77px;
+}
+.download-now-btn>button:hover{
+   
+        background: rgb(95, 24, 95);
+      
+}
+.slider-box{
+    height: 420px;
+    width: 460px;
+   background-color: white;
+   margin-left: 30px;
+}
+
 
 
 /* top footer */
